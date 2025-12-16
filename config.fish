@@ -19,7 +19,7 @@ if status is-interactive
   zoxide init fish | source
   
   # set default directory for `zk`
-  set -x ZK_NOTEBOOK_DIR "/Users/bheil/Notes"
+  set -x ZK_NOTEBOOK_DIR ~/Notes
 
   # set SHELL env variable for integrations with other tools
   set -x SHELL $(which fish)
